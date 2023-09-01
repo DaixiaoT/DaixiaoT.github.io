@@ -3,7 +3,9 @@
   <entry>
     <title>Hello World</title>
     <url>/2023/09/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<p>第一篇测试博客！Hello World！</p>
+<span id="more"></span>
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -68,7 +70,12 @@
   <entry>
     <title>20230725</title>
     <url>/2023/09/01/0725/</url>
-    <content><![CDATA[<p>My friend, you have a few choices available to you:</p>
+    <content><![CDATA[<p>一篇让我挺受感触的回答</p>
+<span id="more"></span>
+
+
+
+<p>My friend, you have a few choices available to you:</p>
 <ul>
 <li>Break up with your GF now.</li>
 <li>Carry on as things are and reap the inevitable consequences of cheating (you are likely to cheat on your GF if you let the feelings for the other person develop, but you choose to stay with your GF)</li>
