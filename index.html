@@ -273,7 +273,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-09-01 11:22:39 / 修改时间：11:26:04" itemprop="dateCreated datePublished" datetime="2023-09-01T11:22:39+08:00">2023-09-01</time>
+              <time title="创建时间：2023-09-01 11:22:39 / 修改时间：14:58:09" itemprop="dateCreated datePublished" datetime="2023-09-01T11:22:39+08:00">2023-09-01</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -296,40 +296,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Ubuntu-解决打开github速度过慢"><a href="#Ubuntu-解决打开github速度过慢" class="headerlink" title="Ubuntu 解决打开github速度过慢"></a>Ubuntu 解决打开github速度过慢</h1><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> gedit /etc/hosts</span><br><span class="line">github.com</span><br><span class="line">github.global.ssl.fastly.net</span><br><span class="line">sudo service network-manager restart</span><br></pre></td></tr></table></figure>
-
-<h1 id="git-使用教程"><a href="#git-使用教程" class="headerlink" title="git 使用教程"></a>git 使用教程</h1><h2 id="git写入配置信息"><a href="#git写入配置信息" class="headerlink" title="git写入配置信息"></a>git写入配置信息</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="attribute">git</span> config --global user.email <span class="string">&quot;dai13967663526@163.com&quot;</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;DaiXiaoT&quot;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="git查看配置信息"><a href="#git查看配置信息" class="headerlink" title="git查看配置信息"></a>git查看配置信息</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="attribute">git</span> config --list</span><br></pre></td></tr></table></figure>
-
-<h2 id="创建仓库命令"><a href="#创建仓库命令" class="headerlink" title="创建仓库命令"></a>创建仓库命令</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> init <span class="comment">#初始化仓库</span></span><br><span class="line">git clone <span class="comment">#拷贝一份远程仓库</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="提交与修改"><a href="#提交与修改" class="headerlink" title="提交与修改"></a>提交与修改</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> add <span class="comment">#添加文件到暂存区</span></span><br><span class="line">git status <span class="comment">#查看仓库当前的状态，显示有变更的文件。</span></span><br><span class="line">git diff <span class="comment">#比较文件的不同，即暂存区和工作区的差异。</span></span><br><span class="line">git commit <span class="comment">#提交暂存区到本地仓库。</span></span><br><span class="line">git reset <span class="comment">#回退版本。</span></span><br><span class="line">git rm <span class="comment">#将文件从暂存区和工作区中删除。</span></span><br><span class="line">git mv <span class="comment">#移动或重命名工作区文件。</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="提交日志"><a href="#提交日志" class="headerlink" title="提交日志"></a>提交日志</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> log <span class="comment">#查看历史提交记录</span></span><br><span class="line">git blame &lt;file&gt; <span class="comment">#以列表形式查看指定文件的历史修改记录</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="远程操作"><a href="#远程操作" class="headerlink" title="远程操作"></a>远程操作</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> remote <span class="comment">#远程仓库操作</span></span><br><span class="line"><span class="comment"># git remote -v 查看远程仓库链接</span></span><br><span class="line"><span class="comment"># git remote add origin https://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@github.com/DaiXiaoT/diary.git</span></span><br><span class="line">git fetch <span class="comment">#从远程获取代码库</span></span><br><span class="line">git pull <span class="comment">#下载远程代码并合并</span></span><br><span class="line">git push <span class="comment">#上传远程代码并合并</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="生成-SSH-密钥：在终端中运行以下命令来生成-SSH-密钥："><a href="#生成-SSH-密钥：在终端中运行以下命令来生成-SSH-密钥：" class="headerlink" title="生成 SSH 密钥：在终端中运行以下命令来生成 SSH 密钥："></a>生成 SSH 密钥：在终端中运行以下命令来生成 SSH 密钥：</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">mathematicaCopy</span> code</span><br><span class="line">ssh-keygen -t ed25519 -C <span class="string">&quot;your_email<span class="variable">@example</span>.com&quot;</span></span><br><span class="line"><span class="comment">#在该命令中，将 &quot;your_email@example.com&quot; 替换为您的电子邮件地址，然后按照提示输入密钥名称和密码。</span></span><br><span class="line"><span class="comment">#将公钥添加到您的 Git 账户中：将生成的公钥添加到您的 Git 账户中。复制公钥文件的内容（默认在     ~/.ssh/id_ed25519.pub 中），并将其粘贴到您的 Git 账户的 SSH 密钥设置中。</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="windows复制密钥"><a href="#windows复制密钥" class="headerlink" title="windows复制密钥"></a>windows复制密钥</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">clip</span> &lt; ~/.ssh/id_rsa.pub <span class="comment">#直接复制ssh密钥到剪贴板，避免打开文件破坏格式</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="将-SSH-URL-添加到您的本地-Git-仓库："><a href="#将-SSH-URL-添加到您的本地-Git-仓库：" class="headerlink" title="将 SSH URL 添加到您的本地 Git 仓库："></a>将 SSH URL 添加到您的本地 Git 仓库：</h2><p>在终端中，转到您的本地 Git 仓库所在的目录，然后使用以下命令将 SSH URL 添加为远程仓库的 URL：</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attribute">git</span> remote set-url origin git<span class="variable">@github</span>.com:username/repo.git</span><br><span class="line"><span class="comment">#在该命令中，将 &quot;username&quot; 替换为您的 GitHub 用户名，将 &quot;repo&quot; 替换为您要连接到的仓库名称。现在，您已经可以使用 SSH 连接到远程 Git 仓库了。</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#要测试 SSH 连接，请在终端中运行以下命令：</span></span><br><span class="line"><span class="attribute">ssh</span> -T git<span class="variable">@github</span>.com</span><br><span class="line"><span class="comment">#如果连接成功，您将看到一条消息，表示您已成功连接到 GitHub。然后，您可以使用 git clone、git push 等命令与远程 Git 仓库进行交互。</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h1 id="mysql安装命令"><a href="#mysql安装命令" class="headerlink" title="mysql安装命令"></a>mysql安装命令</h1><p>先将mysql安装目录下的bin目录添加到环境变量</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">mysqld</span> --initialize-insecure</span><br><span class="line">mysqld install</span><br><span class="line">net start mysql </span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="创建数据库并指定编码格式"><a href="#创建数据库并指定编码格式" class="headerlink" title="创建数据库并指定编码格式"></a>创建数据库并指定编码格式</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">create</span> database blog character set utf8 collate utf8_general_ci</span><br></pre></td></tr></table></figure>
-
-
+          <p>本文记录了我在使用git过程中遇到的常用的命令，希望能够对你们有所帮助。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/09/01/git_manual/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

@@ -21,7 +21,10 @@
   <entry>
     <title>GitHub 操作手册</title>
     <url>/2023/09/01/git_manual/</url>
-    <content><![CDATA[<h1 id="Ubuntu-解决打开github速度过慢"><a href="#Ubuntu-解决打开github速度过慢" class="headerlink" title="Ubuntu 解决打开github速度过慢"></a>Ubuntu 解决打开github速度过慢</h1><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">sudo</span> gedit /etc/hosts</span><br><span class="line">github.com</span><br><span class="line">github.global.ssl.fastly.net</span><br><span class="line">sudo service network-manager restart</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>本文记录了我在使用git过程中遇到的常用的命令，希望能够对你们有所帮助。</p>
+<span id="more"></span>
+
+<h1 id="Ubuntu-解决打开github速度过慢"><a href="#Ubuntu-解决打开github速度过慢" class="headerlink" title="Ubuntu 解决打开github速度过慢"></a>Ubuntu 解决打开github速度过慢</h1><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">sudo</span> gedit /etc/hosts</span><br><span class="line">github.com</span><br><span class="line">github.global.ssl.fastly.net</span><br><span class="line">sudo service network-manager restart</span><br></pre></td></tr></table></figure>
 
 <h1 id="git-使用教程"><a href="#git-使用教程" class="headerlink" title="git 使用教程"></a>git 使用教程</h1><h2 id="git写入配置信息"><a href="#git写入配置信息" class="headerlink" title="git写入配置信息"></a>git写入配置信息</h2><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line">$ <span class="attribute">git</span> config --global user.email <span class="string">&quot;dai13967663526@163.com&quot;</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;DaiXiaoT&quot;</span></span><br></pre></td></tr></table></figure>
 
