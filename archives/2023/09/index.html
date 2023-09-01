@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 6.3.0">
+
+
+(function(){
+    if(''){
+        if (prompt('请输入文章密码') !== ''){
+            alert('密码错误！');
+            history.back();
+        }
+    }
+})();
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -15,14 +25,7 @@
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-(function(){
-  if(''){
-    if(prompt('请输入文章密码')!==''){
-      alert('密码错误!');
-      history.back();
-    }
-  }
-})();
+
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -172,13 +175,33 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
+        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2023</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2023-09-01T14:43:08+08:00"
+              content="2023-09-01">
+          09-01
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2023/09/01/0725/" itemprop="url">
+            <span itemprop="name">20230725</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -292,20 +315,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
