@@ -1,6 +1,6 @@
+http://daixiaot.github.io/categories/index.html
 http://daixiaot.github.io/about/index.html
-http://daixiaot.github.io/categories/GitHub/index.html
-http://daixiaot.github.io/tags/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/index.html
+http://daixiaot.github.io/tags/index.html
 http://daixiaot.github.io/2023/09/01/git_manual/
 http://daixiaot.github.io/2023/09/01/hello-world/
 http://daixiaot.github.io/
