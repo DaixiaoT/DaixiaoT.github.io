@@ -1,3 +1,4 @@
+http://daixiaot.github.io/2023/09/15/20230915/
 http://daixiaot.github.io/2023/09/03/20230903/
 http://daixiaot.github.io/schedule/index.html
 http://daixiaot.github.io/2023/09/01/hello-world/
@@ -10,5 +11,6 @@ http://daixiaot.github.io/
 http://daixiaot.github.io/tags/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/
 http://daixiaot.github.io/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/
 http://daixiaot.github.io/tags/%E8%87%AA%E7%9C%81/
+http://daixiaot.github.io/tags/%E5%BF%83%E6%83%85/
 http://daixiaot.github.io/categories/GitHub/
 http://daixiaot.github.io/categories/Diary/
